@@ -1,0 +1,13 @@
+Rust Enum Name,Resolution,Description
+framesize_t_FRAMESIZE_96X96,96x96,"Tiny, good for simple AI icons."
+framesize_t_FRAMESIZE_QQVGA,160x120,"Extremely fast, very blocky."
+framesize_t_FRAMESIZE_QCIF,176x144,Old cellphone standard.
+framesize_t_FRAMESIZE_HQVGA,240x176,-
+framesize_t_FRAMESIZE_QVGA,320x240,Best for High Speed Video (30+ FPS).
+framesize_t_FRAMESIZE_CIF,400x296,-
+framesize_t_FRAMESIZE_VGA,640x480,Standard webcams. Good balance.
+framesize_t_FRAMESIZE_SVGA,800x600,"Current setting. Good detail, ~15 FPS."
+framesize_t_FRAMESIZE_XGA,1024x768,Getting slow (~5-8 FPS).
+framesize_t_FRAMESIZE_SXGA,1280x1024,Very slow.
+framesize_t_FRAMESIZE_UXGA,1600x1200,Maximum for OV2640.
+framesize_t_FRAMESIZE_QXGA,2048x1536,Max for your OV3660. (Will be <1 FPS).
